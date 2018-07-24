@@ -53,11 +53,8 @@ func challenge2() {
 
 /*:
  ## Challenge 3
- ###
+ ### Write a function that accepts two String parameters, and returns true if they contain the same characters in any order taking into account letter case.
  */
-"""
-Write a function that accepts two String parameters, and returns true if they contain the same characters in any order taking into account letter case.
-"""
 func challenge3() {
     
     func challenge3(string1: String, string2: String) -> Bool {
@@ -405,5 +402,4 @@ func challenge15() {
         assert(challenge15(input: "The quick brown fox") == "ehT kciuq nworb xof", "Challenge 12 failed")
     }
 }
-
 //: [Numbers](@next)
