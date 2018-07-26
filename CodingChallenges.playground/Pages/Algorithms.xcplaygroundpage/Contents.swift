@@ -15,7 +15,6 @@ func algorithm(_ operations: () -> Void) {
 
 /*:
  ## Challenge 55
- ### Create an extension for arrays that sorts them using the bubble sort algorithm.
  */
 extension Array where Element : Comparable{
     
@@ -50,7 +49,6 @@ func challenge55() {
 
 /*:
  ## Challenge 55
- ### Create an extension for arrays that sorts them using the insertion sort algorithm.
  */
 extension Array where Element : Comparable{
     
@@ -84,7 +82,6 @@ func challenge56() {
 
 /*:
  ## Challenge 57
- ### Write a function that accepts two values and returns true if they are isomorphic. That is, each part of the value must map to precisely one other, but that might be itself.
  */
 func challenge57() {
     func challenge57(_ val1: Any, _ val2: Any) -> Bool {
@@ -126,7 +123,6 @@ func challenge57() {
 
 /*:
  ## Challenge 58
- ### Write a function that accepts a string containing the characters (, [, {, <, >, }, ], and ) in any arrangement and frequency. It should return true if the brackets are opened and closed in the correct order, and if all brackets are closed. Any other input should false.
  */
 func challenge58() {
     struct BracketsQueue<T> {
@@ -192,7 +188,6 @@ func challenge58() {
 
 /*:
  ## Challenge 59
- ### Create an extension for arrays that sorts them using the quicksort algorithm
  */
 extension Array where Element : Comparable{
     
@@ -235,7 +230,6 @@ func challenge59() {
 
 /*:
  ## Challenge 60
- ### Create a function that detects whether either player has won in a game of Tic-Tac-Toe.
  */
 func challenge60(_ board: [[String]]) -> Bool {
     func isWin(_ first: String, _ second: String, _ third: String) -> Bool {
@@ -267,7 +261,6 @@ func challenge60() {
 
 /*:
  ## Challenge 61
- ### Write a function that returns an array of prime numbers from 2 up to but excluding N, taking care to be as efficient as possible.
  */
 func challenge61(upTo: Int) -> [Int] {
     guard upTo > 1 else {
@@ -298,7 +291,6 @@ func challenge61() {
 
 /*:
  ## Challenge 62
- ### Write a function that accepts an array of CGPoint pairs, and returns an array of the angles between each point pair. Return the angles in degrees, where 0 or 360 is straight up.
  */
 func challenge62(points: [(first: CGPoint, second: CGPoint)]) -> [CGFloat] {
     
@@ -336,9 +328,7 @@ func challenge62() {
 
 /*:
  ## Challenge 63
- ### Write a function that accepts a two-dimensional array of integers that are 0 or 1, a new number to place, and a position to start. You should read the existing number at the start position, change it to the new number, then change any surrounding numbers that matched the start number, then change any surrounding those, and so on - like a flood fill algorithm in Photoshop.
- 
-    Solution provided by Paul Hudson
+ ### Solution provided by Paul Hudson
  */
 func challenge63() {
     
@@ -404,9 +394,7 @@ func challenge63() {
 
 /*:
  ## Challenge 64
- ### There are M different ways you can place N queens on an NxN chessboard so that none of them are able to capture others. Write a function that calculates them all and prints them to the screen as a visual board layout, and returns the number of solutions it found.
- 
- During implementation I've searched web for the most easy explaination and solution by Jacob Schwartz (@isoiphone) were really cool.
+ ###  During implementation I've searched web for the most easy explaination and solution by Jacob Schwartz (@isoiphone) were really cool.
  You can check it out here: https://gist.github.com/isoiphone/a2b88b9b8ccaeab8fcb8
  */
 

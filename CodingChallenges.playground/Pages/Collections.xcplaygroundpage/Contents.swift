@@ -13,7 +13,6 @@ func algorithm(_ operations: () -> Void) {
 
 /*:
  ## Challenge 37
- ###  Write an extension for collections of integers that returns the number of times a specific digit appears in any of its numbers
  */
 extension Collection where Iterator.Element == Int {
     
@@ -38,7 +37,6 @@ func challenge37() {
 
 /*:
  ## Challenge 38
- ### Write an extension for all collections that returns the N smallest elements as an array, sorted smallest first, where N is an integer parameter
  */
 extension Collection where Iterator.Element : Comparable{
     
@@ -59,7 +57,6 @@ func challenge38() {
 
 /*:
  ## Challenge 39
- ### Extend collections with a function that returns an array of strings sorted by their lengths, longest first
  */
 extension Collection where Iterator.Element == String{
     
@@ -79,7 +76,6 @@ func challenge39() {
 
 /*:
  ## Challenge 40
- ### Create a function that accepts an array of unsorted numbers from 1 to 100 where zero or more numbers might be missing, and returns an array of the missing numbers
  */
 func challenge40() {
     
@@ -102,7 +98,6 @@ func challenge40() {
 
 /*:
  ## Challenge 41
- ### Write an extension to collections that accepts an array of Int and returns the median average, or nil if there are no values
  */
 extension Collection where Iterator.Element == Int {
     
@@ -133,7 +128,6 @@ func challenge41() {
 
 /*:
  ## Challenge 42
- ### Write an extension for all collections that reimplements the index(of:) method
  */
 extension Collection where Iterator.Element : Equatable {
     
@@ -161,7 +155,6 @@ func challenge42() {
 
 /*:
  ## Challenge 43
- ### Create a linked list of lowercase English alphabet letters, along with a method that traverses all nodes and prints their letters on a single line separated by spaces
  */
 class Node<T> {
     var next: Node?
@@ -208,7 +201,6 @@ func challenge43() {
 
 /*:
  ## Challenge 44
- ### Extend your linked list class with a new method that returns the node at the mid point of the linked list using no more than one loop
  */
 extension LinkedList {
     func centerNode() -> Node<T>? {
@@ -245,7 +237,6 @@ func challenge44() {
 
 /*:
  ## Challenge 46
- ### Write an extension for all collections that reimplements the map() method
  */
 extension Collection {
     
@@ -269,7 +260,6 @@ func challenge46() {
 
 /*:
  ## Challenge 47
- ### Write an extension for all collections that reimplements the min() method.
  */
 extension Collection where Iterator.Element: Comparable {
     
@@ -298,7 +288,6 @@ func challenge47() {
 
 /*:
  ## Challenge 48
- ### Create a new data type that models a double-ended queue using generics, or deque. You should be able to push items to the front or back, pop them from the front or back, and get the number of items.
  */
 struct deque<T> {
     private var items: [T] = []
@@ -342,7 +331,6 @@ func challenge48() {
 
 /*:
  ## Challenge 49
- ### Write a function that accepts a variadic array of integers and return the sum of all numbers that appear an even number of times
  */
 
 func challenge49() {
@@ -365,7 +353,6 @@ func challenge49() {
 
 /*:
  ## Challenge 50
- ### Write a function that accepts an array of positive and negative numbers and returns a closed range containing the position of the contiguous positive numbers that sum to the highest value, or nil if nothing were found
  */
 func challenge50() {
     
@@ -409,7 +396,6 @@ func challenge50() {
 
 /*:
  ## Challenge 51
- ### Expand your code from challenge 43 so that it has a reversed() method that returns a copy of itself in reverse
  */
 extension LinkedList {
     func reversed() -> LinkedList<T> {
@@ -455,7 +441,6 @@ func challenge51() {
 
 /*:
  ## Challenge 52
- ### Write one function that sums an array of numbers. The array might contain all integers, all doubles, or all floats
  */
 func challenge52() {
     
@@ -472,9 +457,6 @@ func challenge52() {
 
 /*:
  ## Challenge 53
- ### Someone used the linked list you made previously, but they accidentally made one of the items link back to an earlier part of the list. As a result, the list can’t be traversed properly because it loops infinitely.
- 
- Your job is to write a method for your linked list that returns the node at the start of its loop, i.e. the one that is linked back to.
  */
 extension LinkedList {
     func findLoopStart() -> Node<T>? {
@@ -542,7 +524,6 @@ func challenge53() {
 
 /*:
  ## Challenge 54
- ### Create a binary search tree data structure that can be initialized from an unordered array of comparable values, then write a method that returns whether the tree is balanced.
  */
 class Leaf<T> {
     var value: T

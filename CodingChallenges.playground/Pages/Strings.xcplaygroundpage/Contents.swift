@@ -13,7 +13,6 @@ func algorithm(_ operations: () -> Void) {
 
 /*:
  ## Challenge 1
- ### Write a function that accepts a String as its only parameter, and returns true if the string has only unique letters, taking letter case into account
  */
 func challenge1() {
     
@@ -34,7 +33,6 @@ func challenge1() {
 
 /*:
  ## Challenge 2
- ### Write a function that accepts a String as its only parameter, and returns true if the string reads the same when reversed, ignoring case.
  */
 func challenge2() {
     
@@ -53,7 +51,6 @@ func challenge2() {
 
 /*:
  ## Challenge 3
- ### Write a function that accepts two String parameters, and returns true if they contain the same characters in any order taking into account letter case.
  */
 func challenge3() {
     
@@ -76,7 +73,6 @@ func challenge3() {
 
 /*:
  ## Challenge 4
- ### Write your own version of the contains() method on String that ignores letter case, and without using the existing contains() method
  */
 extension String {
     func fuzzyContains(_ searchStr: String) -> Bool {
@@ -103,7 +99,6 @@ func challenge4() {
 
 /*:
  ## Challenge 5
- ### Write a function that accepts a string, and returns how many times a specific character appears, taking case into account
  */
 func challenge5() {
     
@@ -121,7 +116,6 @@ func challenge5() {
 
 /*:
  ## Challenge 6
- ### Write a function that accepts a string as its input, and returns the same string just with duplicate letters removed
  */
 func challenge6() {
     
@@ -147,7 +141,6 @@ func challenge6() {
 
 /*:
  ## Challenge 7
- ### Write a function that returns a string with any consecutive spaces replaced with a single space.
  */
 func challenge7() {
     
@@ -180,7 +173,6 @@ func challenge7() {
 
 /*:
  ## Challenge 8
- ### Write a function that accepts two strings, and returns true if one string is rotation of the other, taking letter case into account
  */
 func challenge8() {
     
@@ -204,7 +196,6 @@ func challenge8() {
 
 /*:
  ## Challenge 9
- ### Write a function that returns true if it is given a string that is an English pangram, ignoring letter case
  */
 func challenge9() {
     
@@ -223,7 +214,6 @@ func challenge9() {
 
 /*:
  ## Challenge 10
- ### Given a string in English, return a tuple containing the number of vowels and consonants
  */
 func challenge10() {
     
@@ -254,7 +244,6 @@ func challenge10() {
 
 /*:
  ## Challenge 11
- ### Write a function that accepts two strings, and returns true if they are identical in length but have no more than three different letters, taking case and string order into account
  */
 func challenge11() {
     
@@ -291,7 +280,6 @@ func challenge11() {
 
 /*:
  ## Challenge 12
- ### Write a function that accepts a string of words with a similar prefix, separated by spaces, and returns the longest substring that prefixes all words.
  */
 func challenge12() {
     
@@ -318,7 +306,6 @@ func challenge12() {
 
 /*:
  ## Challenge 13
- ### Write a function that accepts a string as input, then returns how often each letter is repeated in a single run, taking case into account.
  */
 func challenge13() {
     
@@ -358,7 +345,6 @@ func challenge13() {
 
 /*:
  ## Challenge 14
- ### Write a function that prints all possible permutations of a given input string
  */
 func challenge14() {
     
@@ -387,7 +373,6 @@ func challenge14() {
 
 /*:
  ## Challenge 15
- ### Write a function that returns a string with each of its words reversed but in the original order, without using a loop
  */
 func challenge15() {
     

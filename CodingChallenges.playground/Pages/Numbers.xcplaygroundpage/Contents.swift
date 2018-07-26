@@ -14,7 +14,6 @@ func algorithm(_ operations: () -> Void) {
 
 /*:
  ## Challenge 16
- ###  Write a function that counts from 1 through 100, and prints “Fizz” if the counter is evenly divisible by 3, “Buzz” if it’s evenly divisible by 5, “Fizz Buzz” if it’s even divisible by three and five, or the counter number for all other cases.
  */
 func challenge16() {
     
@@ -50,7 +49,6 @@ func challenge16() {
 
 /*:
  ## Challenge 17
- ### Write a function that accepts positive minimum and maximum integers, and returns a random number between those two bounds, inclusive
  */
 func challenge17() {
     
@@ -68,7 +66,6 @@ func challenge17() {
 
 /*:
  ## Challenge 18
- ### Create a function that accepts positive two integers, and raises the first to the power of the second
  */
 func challenge18() {
     
@@ -91,7 +88,6 @@ func challenge18() {
 
 /*:
  ## Challenge 19
- ### Swap two positive variable integers, a and b, without using a temporary variable
  */
 func challenge19() {    
     
@@ -107,7 +103,6 @@ func challenge19() {
 
 /*:
  ## Challenge 20
- ### Write a function that accepts an integer as its parameter and returns true if the number is prime
  */
 func challenge20() {
     
@@ -140,7 +135,6 @@ func challenge20() {
 
 /*:
  ## Challenge 21
- ### Create a function that accepts any positive integer and returns the next highest and next lowest number that has the same number of ones in its binary representation. If either number is not possible, return nil for it.
  */
 extension String {
     func numberOfChar(_ char: Character) -> Int {
@@ -186,7 +180,6 @@ func challenge21() {
 
 /*:
  ## Challenge 22
- ### Create a function that accepts an unsigned 8-bit integer and returns its binary reverse, padded so that it holds precisely eight binary digits.
  */
 func challenge22() {
     
@@ -208,7 +201,6 @@ func challenge22() {
 
 /*:
  ## Challenge 23
- ### Write a function that accepts a string and returns true if it contains only numbers, i.e. the digits 0 through 9
  */
 func challenge23() {
     
@@ -227,7 +219,6 @@ func challenge23() {
 
 /*:
  ## Challenge 24
- ### Given a string that contains both letters and numbers, write a function that pulls out all the numbers then returns their sum
  */
 func challenge24() {
     
@@ -249,7 +240,6 @@ func challenge24() {
 
 /*:
  ## Challenge 25
- ### Write a function that returns the square root of a positive integer, rounded down to the nearest integer, without using sqrt()
  */
 func challenge25() {
     
@@ -267,7 +257,6 @@ func challenge25() {
 
 /*:
  ## Challenge 26
- ### Create a function that subtracts one positive integer from another, without using -
  */
 func challenge26() {
     
